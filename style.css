@@ -1,0 +1,101 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.container{
+    padding: 50px 0 0 100px;
+}
+
+/* ---------------------NavBar Style------------------------------- */
+.navbar-container{
+    /* margin: 50px 50px 50px 50px; */
+    margin-bottom: 50px;
+    display: flex;
+    align-items:center;
+    height: 40px;
+}
+
+.navbar-container div img{
+    width: 100px;
+    margin-top: 5px;
+    /* height: 40px; */
+}
+
+.list{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+    margin: 0 20px 0 20px;
+}
+
+.list-item{
+    color: #a9a4a4;
+}
+li:nth-child(1){
+    color: #161414;
+    font-weight: 700;
+}
+
+.button-group{
+    margin-left: 640px;
+}
+ .nav-button{
+    padding: 15px 20px;
+    background-color: #4b4dbd;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+/* ------------------------Banner---------------------------- */
+
+
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    /* height: 300px; */
+}
+
+
+
+.heading-text{
+    color: #2d2d67;
+    font-size: 50px;
+    font-weight: 700; 
+    margin-bottom: 20px;
+    margin-top: 60px;
+    width: 400px;
+}
+
+.heading-text span{
+    color: #7475DA;
+    font-size: 50px;
+    font-weight: 700; 
+}
+
+.description{
+    color:#a9a4a4 ;
+    margin-bottom: 60px;
+    width: 400px;
+}
+
+.btn{
+    padding: 18px 40px;
+}
+
+.banner-container div img{
+    width: 950px;
+    height: 560px;
+    
+}
